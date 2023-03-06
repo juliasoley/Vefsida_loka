@@ -23,6 +23,7 @@
 
   
     <style>
+        
       /* Add styling for the overall document */
       body {
         font-family: Arial, sans-serif;
@@ -40,17 +41,22 @@
 
       /* Add styling for the main content section */
       main {
-        margin:  2rem;
+        margin:  4rem;
       }
-               {
-        margin:  2rem;
-      }
-
+      
+   
+    .solid { border-right: 2px solid #212F3D;
+         margin-right: 1rem;}
+        
+    p.solid {border-style: solid;}
       /* Add styling for the section headings */
       h2 {
         border-bottom: 2px solid #212F3D;
+        border-top: 2px solid #212F3D;
         margin-bottom: 1rem;
         padding-bottom: 0.5rem;
+        margin-top: 1rem;
+        padding-top: 0.5rem;
         margin:  2rem;
       }
 
@@ -63,9 +69,10 @@
       li {
         margin-bottom: 0.1rem;
       }
+
     </style>
   </head>
-  <body  style="background-color:#CFD8DC" >
+  <body  >
       
     <header style="background-color:#33475b" id="header">
 	<div style="background-color:#33475b"  id="head" class="parallax" parallax-speed="1">
@@ -102,12 +109,15 @@
 	</nav>
 </header>
 
-    <main  style="background-color:#CFD8DC" >
+    <main >
 	
       <section>
         <h2>3D prentun</h2>
                   <ul>
-		<aside class="col-md-4 sidebar sidebar-left">
+                     
+        <section>
+            
+	<aside class="col-md-4 sidebar sidebar-left solid" >
 
 				<div class="row widget">
 					<div class="col-xs-12">
@@ -131,10 +141,12 @@
 						
 					</div>
 				</div>
-			</aside>
-                  
 
-                      <h4>Hugmynd og hönnun</h4>
+			</aside>
+          
+                </section>
+
+                      <h4 >Hugmynd og hönnun</h4>
              <section>             
 <p> Í þessu verkefni áttum við að hanna módel fyrir 3D prentun og prenta út hlut. Ég var að fara að kynna vélaverkfræðina á Háskóladeginum svo ég ákvað að  mér fannst skemmtileg leið til að sýna smá hvað við lærum í vélaverkfræðinni að prenta út nafnspjald í 3D. Mig langaði að hafa þetta svoldið skemmtilegt svo ég hannaði nafnið mitt með skemmtilegum bubbly stöfum í FUSION 360. Ég lét nafnspjaldið vera 5x2,5 cm og lét spjaldið ná 1 cm út (botn 0,5 og nafn 0,5 cm).</p>
                 <p  class="text-center"><img src="assets/images/verkefni2/julianafn.png" alt="" width="700" height="400"></p>
@@ -143,63 +155,73 @@
     
     <p>Eftir að ég var orðin sátt með módelið var verkefnið vistað sem 3MF skrá og sett á USB kubb. Næst var skráin opnuð með forritinu Cura og módelið slice-að. Notað var blátt generic PLA filament og þurfti vekefnið engar stoðir. Prentunin tók 47 mínútur og kom nafnspjaldið vel út.</p>
     <p  class="text-center" ><img src="assets/images/verkefni2/3dprent.jpg" alt="" width="400" height="400"></p>
-    
- 
+  
         </ul>
       </section>
         
         
       <section>
-          <h2>3D</h2> 
+          <h2>3D skönnun</h2> 
                   <ul>
-<p> Ég byrjaði að leita mér að góðu sniðmóti og endaði á að downloada tveimur, <a href=" https://www.free-css.com/free-css-templates/page274/initio">Initio</a> og <a href=" https://html5up.net/spectral">Spectral</a>. Mín síða er að mestu byggð á Initio en ég skoðaði mikið Spectral kóðann til að dýpka skilning og bera saman aðferðir. 
-    
-   
-                      </p> 
- 
+        		<aside class="col-md-4 sidebar sidebar-left solid">
+                
+				<div class="row widget">
+					<div class="col-xs-12">
+						<h4>Skemmtilegar myndir:</h4>
+					
+					</div>
+				</div>
+
+				<div class="row widget">
+					<div class="col-xs-12">
+						<p>Skórinn minn að traðka á saklausum nemendum í öskju:</p>
+						<p><img src="assets/images/verkefni2/skor1.jpg" alt="" ></p>
+						
+					</div>
+				</div>
+
+				<div class="row widget">
+					<div class="col-xs-12">
+						<p>Skórinn minn að traðka á tölvunni minni:</p>
+						<p><img src="assets/images/verkefni2/IMG_1206.PNG" alt="" width="340" height="530"></p>
+						
+					</div>
+				</div>
+                                <div class="row widget">
+					<div class="col-xs-12">
+                        <h4>Tímaskýrsla:</h4>
+						<p>Verkefni 3 tók mig alls 8 klukkutíma, 3D prentunin tók 5 tíma, skönnunin 1 klst og að uppfæra síðuna tók 2 tíma.</p>
+						
+						
+					</div>
+				</div>
+			</aside>
+               
+
+		
+<p> Í þessu verkefni á að 3D skanna hlut. Ég byrjaði á því að hlaða niður appinu 3D Photos en það virkaði aðeins fyrir fólk með mac tölvur. Næst hlóð ég niður appinu LiDARScanner en ég var ekki með nógu nýjan síma fyrir það app, en allt er þegar þrennt er og með þriðja appinu sem ég sótti, Modelified, gat ég unnið verkefnið með.  </p>
+<h4>Framkvæmd:</h4>
+<p>Forritið kom með ágætar leiðbeiningar um hvað og hvernig væri best að skanna. Mikilvægt var að hluturinn væri ekki of lítill né of stór, og best væri ef hluturinn væri mattur en þó með ólíkar áferðir. Til vals urðu Dr. Martens klossarnir mínir. Forritið býr til 3D mynd af hlut með því að skeyta ljósmyndum saman. Ég tók 56 ljósmyndir af vinstri skónum mínum og reyndi að passa að ná öllum hliðum vel. Forritið sá svo um að púsla saman 3D módeli af skónum.</p>
+ <p  class="text-center" >                   
+ <video  width="700" height="1100" controls="controls"  onclick="this.play()">
+     <source src="assets/images/verkefni2/skorvideo2.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+     </p>  
+
+        
+<p> Annað skemmtilegt sem appið gat gert er að sýna 3D modelið á sama tíma og það sýnir umhverfið. Hér er videó þar sem 3D módelið er borið saman við vinstri skóinn.</p>
+        
+    <p  class="text-center" >                   
+ <video  width="800" height="1100" controls="controls"  onclick="this.play()">
+     <source src="assets/images/verkefni2/skor2.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+     </p>  
+        
         </ul>
       </section>
         
-          <section>
-        <h2>Skref 2: Vefsíða smíðuð</h2>
-                  <ul>
-<p>  Eftir að sniðmót var ákveðið byrjaði ég að fikta. Ég hef aldrei notað HTML áður svo ég byrjaði á síðu sem ég ætlaði ekki að nota og fór að leika mér að því að eyða og bæta við hlutum til að sjá hvað myndi gerast. Þegar ég var komin með smá skilning á leikreglum forritsins byrjaði ég á vefsíðunni. Síðan <a href=" https://www.w3schools.com/html/">https://www.w3schools.com/</a> kenndi mér að breyta stíl vefsíðunnar t.d bakgrunnslit og leturgerðum. Þegar ég var orðin sátt með vefsíðuna var komið að því að setja hana upp.
-                      </p> 
- 
-        </ul>
-      </section>    
-        
-              <section>
-        <h2>Skref 3: Vefsíðan í loftið</h2> 
-                  <ul>
-<p> Þetta skref reyndist mun erfiðara en ég hafði áætlað. Ég fylgdi   <a href=" https://www.youtube.com/watch?v=uLaRmqOcaqw&list=PLGuNTpc293hpIpAVSJ3-SgNolCTa1BfJE&index=3&ab_channel=HaflidiAsgeirsson">kennslumyndböndum</a> námskeiðisins og bjó til repository og færði inn verkefnið mitt með gitBash. Þegar komið var að því að skoða vefsíðuna kom í ljós að vefsíðan kom ekki eins út og hún hafði gert í Brackets</p> 
-                      
-        <h2 class="text-center">
-     <img src="assets/images/rugl.png" alt="" width="800" height="400"></h2>
-
- <p> Ég leytaði á veraldvefnum "why is my website different when uploaded to github than in Brackets". Ég fann ekkert sem mér fannst ástæða til að prófa. Næst fór ég á síðuna  <a href="https://chat.openai.com/chat"> chat.openai.com </a> sem er síða sem notar gervigreind til þess að svara spurningum. þar fékk ég lista af hlutum sem gætu verið að. 
-                       </p> 
-                      
-                                      
-        <h2 class="text-center">
-     <img src="assets/images/aiewb.png" alt="" width="800" height="400"></h2>
-                      
-    <p> Ég byrjaði á því að breyta um browser án árangurs. Næst hafði ég áhyggjur af því að ég hefði fært skrárnar inn vitlaust. Svo ég bjó til nýtt repository og fylgdi þessu  <a href="https://www.youtube.com/watch?v=8hrJ4oN1u_8&ab_channel=ProgrammingKnowledge"> myndbandi. </a>  Aftur var engin breyting. Næst ákvað ég að setja sjálft sniðmótið á github til að sjá hvort þetta væri galli í sniðmótinu eða hvort ég hefði gert eitthvað vitlaust.  </p>
-                      
-                      
-      <h2 class="text-center">
-     <img src="assets/images/snid.png" alt="" width="800" height="400"></h2>
-       
-    <p>Kom í ljós að vandamálið var tengt sniðmótinu. Eftir smá leit fann ég vandamálið á <a href= "https://github.com/pozh/Initio/issues/5">Þessari</a> síðu </p>
-                      
-      <h2 class="text-center">
-     <img src="assets/images/httpslagf.png" alt="" width="800" height="200"></h2> 
-                      
-    <p>Þá fór ég aftur í Brackets og breytti öllum "http://" í "https://" og loks var síðan tilbúin. <a href= "https://github.com/juliasoley/Vefsida_loka">hér</a> má nálgast repository-ið </p>                              
-        </ul>
-      </section>    
-        
-
     </main>
       
 
